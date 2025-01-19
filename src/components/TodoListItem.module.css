@@ -1,0 +1,36 @@
+.todo-list-item{
+  display: grid;
+  grid-template-columns: 16px 1fr 25px 25px;
+  gap: 5px;
+  padding: 5px;
+  align-items: center;
+  border-bottom: 1px solid rgba(80, 80, 80, 0.192);
+  border-radius: 5px;
+}
+
+.todo-list-item:hover{
+  background-color: rgba(157, 157, 157, 0.211);
+}
+
+.isComplete{
+  opacity: 0.5;
+}
+
+.right-icon{
+  width: 18px;
+  height: 18px;
+  border: 1px slategray solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.right-icon:hover{
+  opacity: 1;
+}
+
+.item-content{
+  font-size: 15px;
+  font-weight: 300;
+}

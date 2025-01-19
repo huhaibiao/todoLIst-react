@@ -1,0 +1,15 @@
+div#root{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */
+  /* gap: 10px; */
+
+  font-family: '-apple-system', BlinkMacSystemFont;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
