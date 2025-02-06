@@ -17,11 +17,10 @@ function App() {
   return (
     <>
       <TodoList date={yesterday.getTime()} title="昨日要做" type="todo" />
-      <TodoList date={yesterday.getTime()} title="昨日操作" type="operate" />
-      <TodoList date={yesterday.getTime()} title="昨日盘后消息" type="news" />
+      <TodoList date={yesterday.getTime()} title="昨日完成" type="operate" />
+      <TodoList date={yesterday.getTime()} title="昨日未完成" type="news" />
       <TodoList date={date} title="今日要做" type="todo" />
-      <TodoList date={date} title="今日操作" type="operate" />
-      <TodoList date={date} title="今日盘后消息" type="news" />
+      <TodoList date={date} title="今日完成" type="operate" />
       <TodoList date={tomorrow.getTime()} title="明日要做" type="todo" />
     </>
   )

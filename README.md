@@ -11,3 +11,6 @@ npm i
 ```sh
 npm run dev
 ```
+
+# 页面效果
+![页面效果](./preview.png)
